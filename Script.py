@@ -2,18 +2,19 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}\n𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
 
     ABOUT_TXT = """<b>⤷ ᴍʏ ɴᴀᴍᴇ : {}
-⤷ ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/DQ12335>DQ</a>
-⤷ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/DQ12335>DQ</a>
+⤷ ᴄʀᴇᴀᴛᴏʀ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
+⤷ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/MalluBlasters>sᴅ_ᴏғғʟɪɴᴇ🇮🇳</a>
 ⤷ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ 
 ⤷ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3
 ⤷ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
-⤷ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href=https://t.me/SD_BOT_SUPPORT>ᴀɴʏᴡʜᴇʀᴇ</a>
+⤷ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href=https://t.me/+lTcjMF6iKqs1MjJl>ᴀɴʏᴡʜᴇʀᴇ</a>
 ⤷ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ1.0.1 [ʙᴇᴛᴀ]</b>"""
 
     SOURCE_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : 𒆜ᴍʀ ᴋᴅ [ᴏғғɪᴄɪᴀɪʟ] 🇮🇳
-• ᴜꜱᴇʀɴᴀᴍᴇ : @MalluBlasters
+➻ ꜰᴜʟʟ ɴᴀᴍᴇ : 𒆜ᴍʀ ᴋᴅ [ᴏғғɪᴄɪᴀɪʟ] 🇮🇳
+➻ ᴜꜱᴇʀɴᴀᴍᴇ : @MalluBlasters
+➻ ғʀᴏᴍ : ɪɴᴅɪᴀ [🇮🇳]
 """
 
 
@@ -29,7 +30,7 @@ class script(object):
 
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
-<code>/batch https://t.me/DQ12335 https://t.me/DQ12335</code>
+<code>/batch https://t.me/MalluBlasters https://t.me/MalluBlasters</code>
 
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/DQ12335><b>SD BOT SUPPORT</b></a>"""
     
