@@ -59,8 +59,7 @@ async def start(client, message):
             return
         btn = [
             [
-                InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                InlineKeyboardButton("🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
                 )
             ]
         ]
@@ -81,7 +80,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            ⚡️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡️', callback_data='start')    
+            InlineKeyboardButton('⚡️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡️', callback_data='start')    
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
