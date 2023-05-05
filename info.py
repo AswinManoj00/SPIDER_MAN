@@ -26,7 +26,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 9999))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://telegra.ph/file/79bd83439254ed9c4bbca.jpg')).split()
+PICS = (environ.get('PICS' ,'https://te.legra.ph/file/b4113760d0a542339a880.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -49,7 +49,7 @@ MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
 START_MESSAGE = environ.get('START_MESSAGE', '<b>𝘏𝘦𝘭𝘰{user}\n\n𝘔𝘺 𝘕𝘢𝘮𝘦 {bot},\n𝘐 𝘊𝘢𝘯 𝘗𝘳𝘰𝘷𝘪𝘥𝘦 𝘔𝘰𝘷𝘪𝘦𝘴,𝘑𝘶𝘴𝘵 𝘈𝘥𝘥 𝘔𝘦 𝘛𝘰 𝘠𝘰𝘶𝘳 𝘎𝘳𝘰𝘶𝘱 𝘈𝘯𝘥 𝘔𝘢𝘬𝘦 𝘔𝘦 𝘈𝘥𝘮𝘪𝘯....𝘛𝘩𝘦𝘯 𝘚𝘦𝘦 𝘔𝘺 𝘗𝘰𝘸𝘦𝘳𝘴💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy @DQ12335</b>')
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "🥀𝗛𝗲𝘆 {query}! ഇത് നിന്റെ അല്ല...😔")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', 'Fɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ ʙᴜᴛᴛᴏɴ . ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴄʟɪᴄᴋ ᴏɴ ᴍᴇ ᴊᴏɪɴᴇᴅ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇ...')
-WELCOM_PIC = environ.get("WELCOM_PIC", "https://telegra.ph/file/a0d8eccea7198ed5ac562.jpg")
+WELCOM_PIC = environ.get("WELCOM_PIC", "https://te.legra.ph/file/c248673be453108b89389.jpg")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "🥀𝗛𝗲𝘆 👋🏻 {user}\n💥𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼{chat}\n\n💞𝗧𝗵𝗮𝗻𝗸 𖨆 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗝𝗼𝗶𝗻")
 PMFILTER = bool(environ.get("PMFILTER", True))
 G_FILTER = bool(environ.get("G_FILTER", True))
