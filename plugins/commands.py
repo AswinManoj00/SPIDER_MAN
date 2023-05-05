@@ -22,8 +22,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[           
-            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+sxErd_EqLl9kYzQ1')
-            ],[
+            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+sxErd_EqLl9kYzQ1'),
             InlineKeyboardButton('🔰 ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
@@ -42,7 +41,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("HELLO.....💞... Bro.")
+        m=await message.reply_sticker("CAACAgUAAxkBAAEJVjlkVP2TFyB5wSLKxodpjGmxOItzOQACKQEAAs5h_j96V8_7r1q-YR4E")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -86,7 +85,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("HELLO.....💞... Bro")
+        m=await message.reply_sticker("CAACAgUAAxkBAAEJVjlkVP2TFyB5wSLKxodpjGmxOItzOQACKQEAAs5h_j96V8_7r1q-YR4E")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
