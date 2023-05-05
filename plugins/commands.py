@@ -38,19 +38,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+zzwlJDmPbLpjYWI1'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+G1pSK1X8YyVmMWI1')
-            ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('💌 SUBSCᏒIBΞ 💌', url='https://t.me/+lTcjMF6iKqs1MjJl')
+            InlineKeyboardButton('⚡️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡️', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_text("HELLO.....💞... Bro.")
+        m=await message.reply_sticker("HELLO.....💞... Bro.")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -90,19 +82,11 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+zzwlJDmPbLpjYWI1'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+G1pSK1X8YyVmMWI1')
-            ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('💌 SUBSCᏒIBΞ 💌', url='https://t.me/+lTcjMF6iKqs1MjJl')    
+            ⚡️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡️', callback_data='start')    
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_text("HELLO.....💞... Bro")
+        m=await message.reply_sticker("HELLO.....💞... Bro")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
