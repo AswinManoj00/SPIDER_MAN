@@ -1104,7 +1104,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("🔙ʙᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/DQ12335")
                   ]]
-            reply_markup = InlineKeyboardMarkup(btn)
+            reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
                 text=(script.OWNER_INFO),
                 reply_markup=reply_markup,
@@ -1134,7 +1134,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('🔙ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('𝙱𝚄𝚃𝚃𝙾𝙽𝚂', callback_data='button')
+            InlineKeyboardButton('⚜️ʙᴜᴛᴛᴏɴs⚜️', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1186,8 +1186,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('𝙶𝙻𝙾𝙱𝙰𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='gfill'),
-            InlineKeyboardButton('𝚄𝚂𝙴𝚁 & 𝙲𝙷𝙰𝚃', callback_data='uschat')
+            InlineKeyboardButton('☣️ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ☣️', callback_data='gfill'),
+            InlineKeyboardButton('💱ᴜsᴇʀ & ᴄʜᴀᴛ💱', callback_data='uschat')
             ],[
             InlineKeyboardButton('🔙ʙᴀᴄᴋ', callback_data='extra')
         ]]
