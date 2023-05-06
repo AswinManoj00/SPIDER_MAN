@@ -1100,11 +1100,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "owner_info":
-        buttons = [[
-                    InlineKeyboardButton("🔙ʙᴀᴄᴋ", callback_data="start"),
+           btn = [[
+                    InlineKeyboardButton(🔙ʙᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/DQ12335")
                   ]]
-            reply_markup = InlineKeyboardMarkup(buttons)
+            reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
                 text=(script.OWNER_INFO),
                 reply_markup=reply_markup,
