@@ -1,5 +1,5 @@
 class script(object):   
-    HELP_TXT = """🥀𝗛𝗲𝘆 {}\n\n𝗛𝗲𝗿𝗲 𝗜𝘀 𝗠𝘆 𝗛𝗲𝗹𝗽 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀."""
+    HELP_TXT = """🥀𝗛𝗲𝘆 {}\n𝗛𝗲𝗿𝗲 𝗜𝘀 𝗠𝘆 𝗛𝗲𝗹𝗽 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀."""
 
     ABOUT_TXT = """<b>⤷ ᴍʏ ɴᴀᴍᴇ : {}
 ⤷ ᴄʀᴇᴀᴛᴏʀ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
