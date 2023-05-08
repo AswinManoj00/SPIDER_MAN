@@ -3,7 +3,7 @@ class script(object):
 
     ABOUT_TXT = """<b>⤷ ᴍʏ ɴᴀᴍᴇ : {}
 ⤷ ᴄʀᴇᴀᴛᴏʀ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
-⤷ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/MalluBlasters>sᴅ_ᴏғғʟɪɴᴇ🇮🇳</a>
+⤷ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/MalluBlasters>𒆜ᴍʀ ᴋᴅ [ᴏғғɪᴄɪᴀɪʟ] 🇮🇳</a>
 ⤷ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ 
 ⤷ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3
 ⤷ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
@@ -32,7 +32,7 @@ class script(object):
 
 <code>/batch https://t.me/MalluBlasters https://t.me/MalluBlasters</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/DQ12335><b>SD BOT SUPPORT</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/CINEMACLUBLINKZ><b>𝘾𝙞𝙉𝙀𝙈𝘼 𝘾𝙇𝙐𝘽²·⁰ | 𝗟𝗶𝗻𝗸𝘀</b></a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -78,7 +78,7 @@ class script(object):
 ›› /set_template - 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙵𝙾𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁. 
 ›› /get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/SD_BOT_SUPPORT>SD BOT SUPPORT</a>**"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/CINEMACLUBLINKZ>𝘾𝙞𝙉𝙀𝙈𝘼 𝘾𝙇𝙐𝘽²·⁰ | 𝗟𝗶𝗻𝗸𝘀</a>**"""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
